@@ -71,8 +71,13 @@ def group_anagrams(strs: List[str]) -> List[List[str]]:
 
 if __name__ == "__main__":
     sample = ["eat", "tea", "tan", "ate", "nat", "bat"]
+    sample2 = ["nice", "mice", "ecim", "rice"]
+    sample3 = []
     grouped = group_anagrams(sample)
-    
+    grouped2 = group_anagrams(sample2)
+    grouped3 = group_anagrams(sample3)
     print("Input:", sample)
     print("Grouped Anagram:", grouped)
+    print("Grouped Anagram:", grouped2)
+    print("Grouped Anagram:", grouped3)
 
